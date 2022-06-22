@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_declarations, sort_child_properties_last
+
 import 'package:flutter/material.dart';
 
 class Profile extends StatefulWidget {

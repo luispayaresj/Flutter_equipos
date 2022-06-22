@@ -39,10 +39,9 @@ class _GetFireBaseState extends State<GetFireBase> {
                         const Text(''),
                         const Text('Datos de Usuario',
                             style: TextStyle(fontWeight: FontWeight.bold)),
-                        const Text(''),
-                        const Text('Nombre y Apellidos : '),
-                        Text(
-                            '${registros[index].nombre} ${registros[index].apellido}'),
+                        
+                        Text('Nombre y Apellidos : ${registros[index].nombre} ${registros[index].apellido}'),
+                        
                         Text('Telefono :${registros[index].cel}'),
                         Text('Licencia : ${registros[index].licencia}'),
                         const Text(''),
